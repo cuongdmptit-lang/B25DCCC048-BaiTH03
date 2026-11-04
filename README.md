@@ -112,28 +112,7 @@ src/
 - Kiểm tra lưới tại 390px, 768px, 1280px: lần lượt 1, 2, 4 cột.
 - Ngắt mạng khi chưa tải sản phẩm: có thông báo lỗi; bật lại và bấm Thử lại.
 
-## Nộp bài
 
-1. Điền mã sinh viên và lớp ở đầu README.
-2. Tạo repository theo yêu cầu `<mã sinh viên> - BaiTH03`; nếu nền tảng không cho khoảng trắng, dùng `<mã sinh viên>-BaiTH03`.
-3. Giải nén, đưa **nội dung bên trong thư mục ShopMini-BaiTH03** lên repo để `package.json` nằm ở thư mục gốc.
-4. Có thể upload trên giao diện GitHub hoặc dùng:
-
-```bash
-git init
-git add .
-git commit -m "Hoan thanh ShopMini BaiTH03"
-git branch -M main
-git remote add origin https://github.com/TEN_GITHUB/MA_SINH_VIEN-BaiTH03.git
-git push -u origin main
-```
-
-Thay TEN_GITHUB và MA_SINH_VIEN bằng thông tin thật. `.gitignore` đã loại `node_modules`, `dist`, file môi trường và log. Giữ `package-lock.json` để cài đúng phiên bản.
-
-5. Dán URL repository vào phần trả lời trên Slink. **Đề yêu cầu URL repo, không phải nộp ZIP trực tiếp.**
-6. Nếu repo private: mời giảng viên có username **anhttptit** vào repository.
-
-Nếu triển khai web lên hosting, cần cấu hình SPA fallback về `index.html` để BrowserRouter hỗ trợ tải lại các đường dẫn con. GitHub repository dùng nộp source không cần triển khai hosting.
 
 ## Tài liệu tham khảo
 
